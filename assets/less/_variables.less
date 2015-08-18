@@ -1,0 +1,55 @@
+// Grid settings
+// -------------------------
+
+@main-sm-columns:       @grid-columns;
+@sidebar-sm-columns:    3;
+
+
+// Brand colors
+// -------------------------
+
+@brand-primary:         #c12a44;
+
+
+// Glyphicons path
+// -------------------------
+
+@icon-font-path:        "../vendor/bootstrap/fonts/";
+
+@font-family-sans-serif:  'Lato',"Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       'Libre Baskerville',Georgia, "Times New Roman", Times, serif;
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+@navbar-height:                    60px;
+@navbar-margin-bottom:             @line-height-computed;
+@navbar-border-radius:             @border-radius-base;
+@navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
+@navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
+@navbar-collapse-max-height:       340px;
+
+@navbar-default-color:             #777;
+@navbar-default-bg:                rgb(255, 255, 255);
+@navbar-default-border:            darken(@navbar-default-bg, 6.5%);
+
+// Navbar links
+@navbar-default-link-color:                #777;
+@navbar-default-link-hover-color:          #333;
+@navbar-default-link-hover-bg:             transparent;
+@navbar-default-link-active-color:         #c12a44;
+@navbar-default-link-active-bg:            none;
+@navbar-default-link-disabled-color:       #ccc;
+@navbar-default-link-disabled-bg:          transparent;
+
+// Navbar brand label
+@navbar-default-brand-color:               @navbar-default-link-color;
+@navbar-default-brand-hover-color:         darken(@navbar-default-brand-color, 10%);
+@navbar-default-brand-hover-bg:            transparent;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:           #ebebeb;
+@navbar-default-toggle-icon-bar-bg:        #c12a44;
+@navbar-default-toggle-border-color:       #f7f7f7;

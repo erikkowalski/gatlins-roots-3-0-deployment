@@ -1,0 +1,732 @@
+/*---- Global -----*/
+
+body {
+    padding-top: 50px;
+}
+
+.home {
+        background-image:url(../img/patterns/diagonales_decalees.png);
+}
+
+.home-wraper {
+    background: white;
+}
+
+.home {
+    padding-top: 0;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*---- Images -----*/
+.entry-content img,
+.comment-content img,
+.widget img {
+max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+height: auto;
+}
+img.size-full {
+max-width: 100%;
+width: auto;
+}
+
+img.wp-post-image {
+	max-width: 100%;
+	height:auto;
+}
+
+
+/* -- Navbar styles ---*/
+
+.navbar-brand {
+    padding: 10px 0px 0 5px;
+}
+
+.navbar-right .fb  {
+    display: inline-block;
+    float: right;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-right a {
+    letter-spacing: 0.1em;
+}
+
+.atlins {
+    float: left;
+    margin-top: 5px;
+}
+
+.navbar-right a {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.admin-bar .navbar {
+    margin-top: 30px;
+}
+
+.home .carousel {
+    margin-top: 47px;
+}
+
+
+/*----------- Home Page -----------*/
+
+.home-wraper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+
+.home .page-header {
+    text-align: center;
+    padding: 2em 0 4em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.home .page-header h1 {
+    font-weight: 100;
+    font-size: 4em;
+}
+
+.carousel-caption .btn {
+    font-family: 'Lato' sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+.carousel {
+    border-bottom: 15px solid #bababa;
+}
+
+.location .home-wraper{
+    background: white;
+}
+
+.location h1 {
+    text-align: center;
+    padding: 1em 0 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 100;
+    font-size: 4em;
+    margin-top: 0;
+}
+
+.location h2 {
+    font-weight: 300;
+    font-size:2em;
+    text-align: center;
+    color: #dedede;
+    font-weight: 100;
+}
+
+.info {
+    background-image: url(../img/patterns/darkdenim3.png);
+     background-attachment: fixed;
+    padding: 2em;
+}
+
+.location .phone {
+    font-size: 4em;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 20px;
+}
+
+.location .hours span {
+    font-weight: 400;
+}
+
+.location .avail {
+    border-bottom: 1px solid #dedede;
+        padding-bottom: 20px;
+}
+
+.location .street {
+    font-size: 3.2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.location .city {
+    margin-top: 10px;
+}
+
+/*----------- Location Page -----------*/
+
+.framing {
+    background: #000;
+    background-image: url(../img/handmade.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.art {
+    background: #000;
+    background-image: url(../img/art.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.photo {
+    background: #000;
+    background-image: url(../img/photo.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.framing .page-header h1, .art .page-header h1, .photo .page-header h1 {
+    font-size: 5em;
+    letter-spacing: 0.1em;
+}
+
+ .framing-content, .photo-content, .art-content {
+padding: 2em;
+ }
+
+.framing .framing-content, .photo .photo-content, .art .art-content {
+    background: white;
+}
+
+.framing .framing-content h2:first-child {
+    margin-top: 0;
+}
+
+.framing .framing-content h2, .photo .photo-content h2, .art .art-content h2 {
+    line-height: 1.4em;
+    font-weight: 300;
+    font-size: 1.9em;
+}
+
+.framing .page-header,.photo .page-header, .art .page-header {
+    text-transform: uppercase;
+    font-size: 100;
+    padding: 2em;
+    color: white;
+    text-align: center;
+}
+
+/*----------- Location Page -----------*/
+
+.location-page {
+        padding-top: 4em;
+
+}
+
+.location-page h1{
+    text-align: center;
+    margin:0.5em 0 0.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.location-page h2 {
+        font-weight: 100;
+
+}
+/*----------- Post entery title & meta -----------*/
+
+
+.home .entry-title {
+	font-weight:600;
+    padding:0.2em 0;
+    font-size: 2.em;
+    color: black;
+    border-bottom: 1px solid #dedede;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+}
+
+.home .author {
+    font-family: "lato" sans-serif;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.single-post .post .entry-title {
+    font-family: 'Libre Baskerville', serif;
+    color: #333;
+    padding-left: 0;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #7c7c7c;
+    margin: 0.5em 0 0.2em 0;
+}
+
+.single-post .post .author, .single-post .post .published {
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+.entry-title a {
+	color:#000;
+}
+
+.post .entry-content img{
+    padding-bottom: 10px;
+}
+
+
+.entry-summary {
+margin-top: 5px;
+}
+
+.entry-summary p{
+    font-size: 0.9em;
+}
+
+.entry-content P {
+    font-size: 1.1em;
+}
+
+
+/*----------- Side Bar Styles -----------*/
+
+.sidebar {
+    margin-top: 5em;
+}
+
+.sidebar h3 {
+	font-size:1.5em;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+    font-weight: 300;
+    color: #464646;
+}
+
+.sidebar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+}
+
+.sidebar a {
+    color: #838383;
+}
+
+.sidebar a:hover {
+    color: #1f6ed9;
+}
+
+.widget a {
+    font-size: 0.9em;
+}
+
+
+/*----------- footer -----------*/
+
+footer {
+    padding-bottom: 2em;
+}
+
+footer p {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+}
+
+.footer-logo{
+    margin-top: 6em;
+    text-align: center;
+
+}
+
+.footer-logo img {
+
+ max-width: 100%;
+}
+
+.content-info {
+	background:#f8f8f8;
+     background-image: url(../img/patterns/subtle_dots.png);
+    background-attachment: fixed;
+	margin-bottom:0;
+	border-top:20px solid #cbcbcb;
+}
+
+.content-info h3 {
+	letter-spacing:0.1em;
+	font-weight:400;
+}
+
+
+
+.content-info, .content-info p{
+	font-size:1.1em;
+}
+
+
+.content-info h3 {
+	font-size:1em;
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+	border-bottom:1px solid #c4c4c4;
+}
+
+.content-info ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+
+footer .container > p {
+	letter-spacing:0.08em;
+	text-align:center;
+}
+
+.footer-bottom {
+}
+
+.copyright {
+    text-align: center;
+    padding: 3em 0 2em 0;
+}
+
+.blog-name {
+    font-size: 1.5em;
+    letter-spacing:0.02em;
+    padding-right: 10px;
+
+}
+
+.footer-tagline {
+    padding-right: 10px;
+}
+
+.author-copyright {
+   font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+
+/* add boostrap grid col-md-3 styling to footer widgets */
+
+.content-info .widget {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+@media (min-width: 768px) {
+.content-info .widget {
+    float: left;
+    width: 50%;
+  }
+
+  }
+
+@media (min-width: 992px) {
+.content-info .widget {
+		float: left;
+		width: 25%;
+	}
+} /* close media querie */
+
+
+
+
+/*--------- Contact form -----------*/
+
+.contact h1 {
+    text-align: center;
+    padding: 1em 0 0.1em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: white;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.contact h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.contact h3 {
+    padding-left: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.contact blockquote {
+    font-weight: 200;
+    background: black;
+    color: white;
+    border-left: black;
+}
+
+
+.page-template-template-contact-php {
+    background: black;
+    background-repeat: no-repeat;
+    background-image: url(../img/contact-bg-bw.jpg);
+    background-size: contain;
+
+}
+
+.contact form label {
+    letter-spacing: 0.15em;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+}
+
+.contact form label span {
+    font-weight: 100;
+}
+
+.radio {
+    padding-left: 1.8em;
+}
+
+.contact form div:nth-child(6) {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    margin-top: 10px;
+    max-width: 600px;
+}
+
+.contact .content-info {
+
+    border-top: 5px solid black;
+}
+
+
+ input {
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.contact textarea {
+     color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#contact-form  .radio{
+    font-weight: 100;
+    text-transform: none;
+}
+
+.contact div {
+    margin-bottom: 2em;
+}
+
+.contact-form .clear-form {
+    margin: 0;
+}
+
+.contact-submit input{
+    background-color: #c12a44;
+    border-color: #ac253d;
+    font-family: lato,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 4em;
+    letter-spacing: 0.2em;
+    padding: 10px 16px;
+    line-height: 1.33;
+    border-radius: 6px
+}
+
+
+.contact-submit input:hover{
+    background: #972135;
+}
+
+
+/*---------------------------------
+MEDIA QUERIES FOR RESPONSIVE DESIGN
+------------------*/
+
+ /*
+					 ##
+			  ###    ##   ###
+				###  ## ####
+				 #########
+			 ##################
+			 ##################
+				  #######
+				 ##  ## ###
+			   ###   ##  ####
+					 ##
+*/
+
+/* -------- iPhone ---------- */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	body {
+    margin-top: 50px;
+}
+
+.statement{
+    padding: 10px;
+    }
+
+
+}/*    <--- Close iPhone --- */
+
+
+
+/* --- iPad --- */
+
+@media only screen
+and (min-device-width : 768px )
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+}/* <--- Close iPad --- */
+
+
+@media (min-width: 768px) {
+
+.contact {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+}
+
+
+/* -----------------///// @screen-sm-min /////-----------> */
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+
+
+} /* <------ close 768px breakpoint///// @screen-sm-min /////-------*/
+
+
+ /*
+					 ##
+			  ###    ##   ###
+				###  ## ####
+				 #########
+			 ##################
+			 ##################
+				  #######
+				 ##  ## ###
+			   ###   ##  ####
+					 ##
+*/
+
+@media (min-width: 785px) {
+    .admin-bar .navbar {
+
+}
+
+    .carousel-caption h1 {
+    text-transform: uppercase;
+    font-size: 6em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    letter-spacing: 0.08em
+}
+
+    .carousel-caption .btn {
+        margin-bottom: 2em;
+}
+
+}
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.carousel-caption h1 {
+    text-transform: uppercase;
+    font-size: 8em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    letter-spacing: 0.08em
+}
+
+    .carousel-caption .btn {
+        margin-bottom: 3em;
+}
+
+.contact {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+} /*-------- Close @screen-lg-min -------------*/
+
+
+
+/* -----------------///// @screen-lg-min /////-----------> */
+
+@media (min-width: 1200px) {
+
+   .carousel-caption h1 {
+    text-transform: uppercase;
+    font-size: 10em;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+    letter-spacing: 0.08em
+}
+
+
+    .carousel-caption .btn {
+        margin-bottom: 2em;
+        font-size: 2em;
+        font-weight: 100;
+}
+
+.contact {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+
+} /* <------ close 1200px breakpoint///// @screen-lg-min /////-------*/
